@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    /* Use of Margins */
+    font-family: 'Golos Text', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Page Wrapper */
+
+.wrapper {
+    height: 3500px;
+    width: auto;
+    background-color: orange;
+}
+
+/* Nav Section (Responsive Navigation) */
+
+nav {
+    background-color: grey;
+    height: 5rem;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 1.25rem;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 5rem;
+    margin: 0 0.3125rem;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.0625rem;
+    text-transform: uppercase;
+    border-radius: 0.3125rem;
+    padding: 0.4375rem 0.8125rem;
+}
+
+nav img {
+    margin: 0.9375rem;
+}
+
+a:hover {
+    color: greenyellow;
+    background-color: black;
+}
+
+a.active, a:hover {
+    transition: .1s;
+}
+
+.checkbtn {
+    font-size: 1.875rem;
+    color: orange;
+    float: right;
+    line-height: 5rem;
+    margin-right: 2.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* Header Section */
+
+.header_wrapper {
+    background-color: rgb(255, 165, 0);
+    height: 62.5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 31.25rem;
+    background-image: url("img/ps4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_left {
+    align-content: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+    text-shadow: 0.125rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+.header_left h1 {
+    color: white;
+    font-size: 6.25rem;
+    padding-left: 6.25rem;
+    margin-top: 18.75rem;
+}
+
+.header_left p {
+    color: white;
+    font-size: 2.1875rem;
+    padding-left: 6.25rem;
+    line-height: 3.25rem;
+    font-weight: bold;
+}
+
+/* Start of Features Section */
+
+.features_section {
+    display: flex;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.features_left {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 40px;
+}
+
+.features_right {
+    padding-left: 40px;
+}
+
+.features_left h2 {
+    color: white;
+    font-size: 3.1875rem;
+    padding: 75px 0 0 105px;
+}
+
+.features_right h3 {
+    color: orange;
+    font-size: 2.1875rem;
+    text-transform: none;
+    padding-top: 105px;
+}
+
+.features_right li {
+    font-size: 1.7rem;
+    text-transform: none;
+    padding-bottom: 40px;
+    line-height: 3rem;
+}
+
+.features_right ol {
+    margin-right: 300px;
+}
+
+.features_left img {
+    padding-left: 25px;
+}
+
+/* Start of Gallery Section */
+
+.gallery_section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    padding: 5px;
+    background-color: orange;
+}
+
+.gallery_section img {
+    width: 100%;
+    height: auto;
+}
+
+/* Start of Purchase Section */
+
+.purchase_section {
+    display: flex;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.purchase_left {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 500px;
+}
+
+.purchase_left h2 {
+    font-size: 3.1875rem;
+    padding: 90px 0 30px 120px;
+    margin-right: 60px;
+}
+
+.purchase_left h3 {
+    color: orange;
+    font-size: 2.1875rem;
+    padding: 0 0 30px 120px;
+}
+
+.purchase_left p {
+    color: orange;
+    font-size: 2.1875rem;
+    padding: 0 0 0 120px;
+    margin-right: 5px;
+    text-transform: none;
+    line-height: 3.8rem;
+}
+
+.purchase_left button {
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 175px;
+    height: 70px;
+    cursor: pointer;
+    background-color: orange;
+    border-radius: 0.3125rem;
+    margin: 30px 0 0 120px;
+}
+
+.purchase_right {
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 25vh 0 0 15vh;
+}
+
+.purchase_right img {
+    padding-right: 70px;
+}
+
+/* Start of Footer */
+
+footer {
+    padding-top: 15px;
+    height: 250px;
+    background-color: grey;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.footer_top {
+    display: flex;
+}
+
+.footer_bottom {
+    height: 30px;
+    background-color: orange;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer_top h6 {
+    color: orange;
+}
+
+.footer_top>div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.footer_top a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 0.3125rem;
+    padding: 0.4375rem 0.6125rem;
+}
+
+.footer_top p {
+    text-align: left;
+}
+
+.footer_top a:hover {
+    color: greenyellow;
+}
+
+.footer_top img {
+    width: 280px;
+    height: 90px;
+    padding: 20px;
+}
+
+/* Media Queries for Laptop L */
+
+@media all and (max-width: 90rem) {
+/* L Laptop Dimensions (Macbook Pro) */
+    
+
+    /* Laptop Media Queries for Nav */
+
+    nav {
+        background-color: grey;
+    }
+
+    /* Laptop Media Queries for Header */
+
+    .header_left h1 {
+        font-size: 4.625rem;
+        padding-left: 80px;
+    }
+
+    .header_left p {
+        font-size: 1.54166666667rem;
+        padding-left: 80px;
+
+    }
+
+    /* Start of Laptop Media Queries for Features */
+
+    .features_section {
+        height: 120vh;
+    }
+
+    .features_left img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .features_right ol {
+        margin-right: 100px;
+    }
+
+    /* Start of Laptop Media Queries for Gallery */
+
+    .gallery_section {
+        background-color: orange;
+        padding: 5px;
+    }
+
+    /* Laptop Media Queries for Purchase */
+
+    .purchase_section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: orange;
+        height: 100vh;
+    }
+
+    .purchase_left {
+        padding-left: 40px;
+    }
+
+    .purchase_right {
+        padding-top: 150px;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 15vh 0 0 5vh;
+    }
+
+    .purchase_left h2 {
+        font-size: 5rem;
+        padding-left: 2rem;
+        padding-top: 1.5rem;
+    }
+
+    .purchase_left h3 {
+        color: white;
+        font-size: 1.9em;
+        padding-left: 2rem;
+    }
+
+    .purchase_left p {
+        font-size: 1.4rem;
+        color: white;
+        padding-left: 2rem;
+        line-height: 4rem;
+    }
+
+    .purchase_left button {
+        background-color: white;
+        color: orange;
+        margin-left: 2rem;
+        height: 50px;
+    }
+
+    .purchase_right img {
+        margin-top: 150px;
+        width: 700px;
+        height: 450px;
+    }
+
+    /* Laptop Media Queries for Footer */
+
+    .footer_bottom {
+        background-color: grey;
+        color: white;
+    }
+}
+
+/* End of Laptop Media Queries */
+
+@media all and (max-width: 48rem) {
+/* Tablet Dimensions */
+    
+
+    /* Tablet Media Queries for Nav */
+
+    /* Use of Responsive Navigation */
+
+    nav {
+        background-color: orange;
+        position: fixed;
+    }
+
+    .checkbtn {
+        display: block;
+        color: white;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: black;
+        top: 5rem;
+        right: -110%;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 3.125rem 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 1.875rem;
+    }
+
+    a:hover {
+        background: none;
+        color: greenyellow;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    /* Tablet Media Queries for Header */
+
+    .header_left h1 {
+        font-size: 5.625rem;
+        padding-left: 80px;
+    }
+
+    /* Tablet Media Queries for Features */
+
+    .features_section {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 200vh;
+    }
+
+    .features_right ol {
+        margin-right: 50px;
+    }
+
+    .features_left img {
+        width: 600px;
+        height: 600px;
+    }
+
+    .features_left h2 {
+        padding-left: 0px;
+    }
+
+    .features_right h3 {
+        padding-top: 0px;
+    }
+
+    /* Tablet Media Queries for Gallery */
+
+    .gallery_section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: orange;
+    }
+
+    .gallery_section_img_7 {
+        display: none;
+    }
+
+    .gallery_section_img_8 {
+        display: none;
+    }
+
+    .gallery_section_img_9 {
+        display: none;
+    }
+
+    .gallery_section_img_10 {
+        display: none;
+    }
+
+    .gallery_section_img_11 {
+        display: none;
+    }
+
+    .gallery_section_img_12 {
+        display: none;
+    }
+
+    /* Tablet Media Queries for Purchase */
+
+    .purchase_section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        background-color: orange;
+        height: 100vh;
+    }
+
+    .purchase_left h2 {
+        font-size: 5rem;
+        padding-left: 2rem;
+    }
+
+    .purchase_left h3 {
+        color: white;
+        font-size: 2em;
+        padding-left: 2rem;
+    }
+
+    .purchase_left p {
+        font-size: 1.8rem;
+        color: white;
+        padding-left: 2rem;
+        line-height: 3rem;
+        margin-right: 50px;
+    }
+
+    .purchase_right img {
+        display: none;
+    }
+
+    .purchase_left button {
+        font-size: 20px;
+        width: 150px;
+        height: 70px;
+        margin: 30px 0 0 2rem;
+        background-color: white;
+        color: orange;
+        margin-left: 2rem;
+    }
+
+    /* Tablet Media Queries for Footer */
+
+    footer {
+        display: grid;
+        grid-template-rows: 1fr;
+        height: 140vh;
+    }
+
+    .footer_top {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+
+    .footer_bottom {
+        background-color: orange;
+    }
+    .footer_top h6 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .footer_top p {
+        text-align: center;
+    }
+
+    .footer_top a {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+}
+
+/* End of Tablet Media Queries */
+
+/* Media Queries for Mobile L */
+
+@media all and (max-width: 26.563rem) {
+/* Mobile L Dimensions */
+    
+
+    /* Phone Media Queries for wrapper */
+
+    .header_wrapper {
+        height: 40rem;
+    }
+
+    /* Phone Media Queries for Nav */
+
+    nav {
+        background-color: orange;
+    }
+
+    /* Phone Media Queries for Header */
+
+    .header_left h1 {
+        display: none;
+    }
+
+    .header_left p {
+        display: none;
+    }
+
+    /* Phone Media Queries for Features */
+
+    .features_section {
+        height: 220vh;
+    }
+
+    .features_left img {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* Phone Media Queries for Gallery */
+
+    .gallery_section {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: orange;
+    }
+
+    .gallery_section_img_5 {
+        display: none;
+    }
+
+    .gallery_section_img_6 {
+        display: none;
+    }
+
+    .gallery_section_img_7 {
+        display: none;
+    }
+
+    .gallery_section_img_8 {
+        display: none;
+    }
+
+    .gallery_section_img_9 {
+        display: none;
+    }
+
+    .gallery_section_img_10 {
+        display: none;
+    }
+
+    .gallery_section_img_11 {
+        display: none;
+    }
+
+    .gallery_section_img_12 {
+        display: none;
+    }
+
+    /* Phone Media Queries for Purchase */
+
+    .purchase_section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        background-color: orange;
+        height: 75vh;
+    }
+
+    .purchase_left {
+        padding-left: 10px;
+    }
+
+    .purchase_left h2 {
+        font-size: 3rem;
+        padding-left: 2rem;
+        margin: 0px;
+    }
+
+    .purchase_left h3 {
+        color: white;
+        font-size: 1.5em;
+        padding-left: 2rem;
+    }
+
+    .purchase_left p {
+        font-size: 1.2rem;
+        color: white;
+        padding-left: 2rem;
+        line-height: 1.8rem;
+        margin-right: 50px;
+    }
+
+    .purchase_left button {
+        background-color: white;
+        color: orange;
+        margin-left: 2rem;
+        height: 50px;
+    }
+
+    .purchase_right img {
+        display: none;
+    }
+
+    /* Phone Media Queries for Footer */
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 140vh;
+    }
+
+    .footer_top {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .footer_bottom {
+        background-color: orange;
+    }
+    .footer_top h6 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .footer_top p {
+        text-align: center;
+    }
+
+    .footer_top a {
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+/* End of Phone Media Queries */
