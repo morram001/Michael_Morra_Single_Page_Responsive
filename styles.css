@@ -13,7 +13,7 @@
 /* Page Wrapper */
 
 .wrapper {
-    height: 3500px;
+    height: 218.75rem;
     width: auto;
     background-color: orange;
 }
@@ -115,7 +115,7 @@ a.active, a:hover {
 .features_section {
     display: flex;
     text-transform: uppercase;
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
     background-color: black;
     color: white;
     height: 100vh;
@@ -124,24 +124,24 @@ a.active, a:hover {
 .features_left {
     display: grid;
     grid-template-columns: 1fr;
-    padding-left: 40px;
+    padding-left: 2.5rem;
 }
 
 .features_right {
-    padding-left: 40px;
+    padding-left: 2.5rem;
 }
 
 .features_left h2 {
     color: white;
     font-size: 3.1875rem;
-    padding: 75px 0 0 105px;
+    padding: 4.688rem 0 0 6.563rem;
 }
 
 .features_right h3 {
     color: orange;
     font-size: 2.1875rem;
     text-transform: none;
-    padding-top: 105px;
+    padding-top: 6.563rem;
 }
 
 .features_right li {
@@ -156,7 +156,7 @@ a.active, a:hover {
 }
 
 .features_left img {
-    padding-left: 25px;
+    padding-left: 2.5rem;
 }
 
 /* Start of Gallery Section */
@@ -165,8 +165,8 @@ a.active, a:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 5px;
-    padding: 5px;
+    gap: 0.313rem;
+    padding: 0.313rem;
     background-color: orange;
 }
 
@@ -188,26 +188,26 @@ a.active, a:hover {
 .purchase_left {
     display: grid;
     grid-template-columns: 1fr;
-    height: 500px;
+    height: 31.25rem;
 }
 
 .purchase_left h2 {
     font-size: 3.1875rem;
-    padding: 90px 0 30px 120px;
-    margin-right: 60px;
+    padding: 5.625rem 0 1.875rem 7.5rem;
+    margin-right: 3.75rem;
 }
 
 .purchase_left h3 {
     color: orange;
     font-size: 2.1875rem;
-    padding: 0 0 30px 120px;
+    padding: 0 0 1.875rem 7.5rem;
 }
 
 .purchase_left p {
     color: orange;
     font-size: 2.1875rem;
-    padding: 0 0 0 120px;
-    margin-right: 5px;
+    padding: 0 0 0 7.5rem;
+    margin-right: 0.313rem;
     text-transform: none;
     line-height: 3.8rem;
 }
@@ -218,31 +218,31 @@ a.active, a:hover {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    width: 175px;
-    height: 70px;
+    font-size: 1rem;
+    width: 10.938rem;
+    height: 4.375rem;
     cursor: pointer;
     background-color: orange;
     border-radius: 0.3125rem;
-    margin: 30px 0 0 120px;
+    margin: 1.875rem 0 0 7.5rem;
 }
 
 .purchase_right {
-    padding-top: 150px;
+    padding-top: 9.375rem;
     display: grid;
     grid-template-columns: 1fr;
     padding: 25vh 0 0 15vh;
 }
 
 .purchase_right img {
-    padding-right: 70px;
+    padding-right: 4.375rem;
 }
 
 /* Start of Footer */
 
 footer {
-    padding-top: 15px;
-    height: 250px;
+    padding-top: 0.938rem;
+    height: 15.625rem;
     background-color: grey;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -253,12 +253,12 @@ footer {
 }
 
 .footer_bottom {
-    height: 30px;
+    height: 1.875rem;
     background-color: orange;
-    font-size: 20px;
+    font-size: 1.25rem;
     display: flex;
     align-items: center;
-    padding: 30px;
+    padding: 1.875rem;
 }
 
 .footer_top h6 {
@@ -266,13 +266,13 @@ footer {
 }
 
 .footer_top>div {
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
+    margin: 0.625rem;
+    padding: 1.25rem;
+    font-size: 1.875rem;
 }
 
 .footer_top a {
-    font-size: 15px;
+    font-size: 0.938rem;
     text-decoration: none;
     color: white;
     text-align: center;
@@ -289,9 +289,9 @@ footer {
 }
 
 .footer_top img {
-    width: 280px;
-    height: 90px;
-    padding: 20px;
+    width: 12.5rem;
+    height: 5.625rem;
+    padding: 1.25rem;
 }
 
 /* Media Queries for Laptop L */
@@ -310,12 +310,12 @@ footer {
 
     .header_left h1 {
         font-size: 4.625rem;
-        padding-left: 80px;
+        padding-left: 5rem;
     }
 
     .header_left p {
         font-size: 1.54166666667rem;
-        padding-left: 80px;
+        padding-left: 5rem;
 
     }
 
@@ -326,19 +326,19 @@ footer {
     }
 
     .features_left img {
-        width: 500px;
-        height: 500px;
+        width: 31.25rem;
+        height: 31.25rem;
     }
 
     .features_right ol {
-        margin-right: 100px;
+        margin-right: 6.25rem;
     }
 
     /* Start of Laptop Media Queries for Gallery */
 
     .gallery_section {
         background-color: orange;
-        padding: 5px;
+        padding: 0.313rem;
     }
 
     /* Laptop Media Queries for Purchase */
@@ -351,11 +351,11 @@ footer {
     }
 
     .purchase_left {
-        padding-left: 40px;
+        padding-left: 2.5rem;
     }
 
     .purchase_right {
-        padding-top: 150px;
+        padding-top: 9.375rem;
         display: grid;
         grid-template-columns: 1fr;
         padding: 15vh 0 0 5vh;
@@ -384,13 +384,13 @@ footer {
         background-color: white;
         color: orange;
         margin-left: 2rem;
-        height: 50px;
+        height: 3.125rem;
     }
 
     .purchase_right img {
-        margin-top: 150px;
-        width: 700px;
-        height: 450px;
+        margin-top: 9.375rem;
+        width: 43.75rem;
+        height: 28.125rem;
     }
 
     /* Laptop Media Queries for Footer */
@@ -434,7 +434,7 @@ footer {
     nav ul li {
         display: block;
         margin: 3.125rem 0;
-        line-height: 30px;
+        line-height: 1.875rem;
     }
 
     nav ul li a {
@@ -454,7 +454,7 @@ footer {
 
     .header_left h1 {
         font-size: 5.625rem;
-        padding-left: 80px;
+        padding-left: 5rem;
     }
 
     /* Tablet Media Queries for Features */
@@ -466,20 +466,20 @@ footer {
     }
 
     .features_right ol {
-        margin-right: 50px;
+        margin-right: 3.125rem;
     }
 
     .features_left img {
-        width: 600px;
-        height: 600px;
+        width: 37.5rem;
+        height: 37.5rem;
     }
 
     .features_left h2 {
-        padding-left: 0px;
+        padding-left: 0rem;
     }
 
     .features_right h3 {
-        padding-top: 0px;
+        padding-top: 0rem;
     }
 
     /* Tablet Media Queries for Gallery */
@@ -540,7 +540,7 @@ footer {
         color: white;
         padding-left: 2rem;
         line-height: 3rem;
-        margin-right: 50px;
+        margin-right: 3.125rem;
     }
 
     .purchase_right img {
@@ -548,10 +548,10 @@ footer {
     }
 
     .purchase_left button {
-        font-size: 20px;
-        width: 150px;
-        height: 70px;
-        margin: 30px 0 0 2rem;
+        font-size: 1.25rem;
+        width: 9.375rem;
+        height: 4.375rem;
+        margin: 1.875rem 0 0 2rem;
         background-color: white;
         color: orange;
         margin-left: 2rem;
@@ -575,7 +575,7 @@ footer {
     }
     .footer_top h6 {
         text-align: center;
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .footer_top p {
@@ -583,7 +583,7 @@ footer {
     }
 
     .footer_top a {
-        font-size: 30px;
+        font-size: 1.875rem;
         font-weight: bold;
     }
 
@@ -626,8 +626,8 @@ footer {
     }
 
     .features_left img {
-        width: 300px;
-        height: 300px;
+        width: 18.75rem;
+        height: 18.75rem;
     }
 
     /* Phone Media Queries for Gallery */
@@ -681,13 +681,13 @@ footer {
     }
 
     .purchase_left {
-        padding-left: 10px;
+        padding-left: 0.625rem;
     }
 
     .purchase_left h2 {
         font-size: 3rem;
         padding-left: 2rem;
-        margin: 0px;
+        margin: 0rem;
     }
 
     .purchase_left h3 {
@@ -708,7 +708,7 @@ footer {
         background-color: white;
         color: orange;
         margin-left: 2rem;
-        height: 50px;
+        height: 3.125rem;
     }
 
     .purchase_right img {
@@ -733,7 +733,7 @@ footer {
     }
     .footer_top h6 {
         text-align: center;
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .footer_top p {
@@ -741,7 +741,7 @@ footer {
     }
 
     .footer_top a {
-        font-size: 30px;
+        font-size: 1.875rem;
         font-weight: bold;
     }
 }
