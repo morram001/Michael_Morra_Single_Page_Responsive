@@ -13,9 +13,9 @@
 /* Page Wrapper */
 
 .wrapper {
-    height: 218.75rem;
-    width: auto;
     background-color: orange;
+    display: grid;
+    grid-template-rows: 1fr;
 }
 
 /* Nav Section (Responsive Navigation) */
@@ -347,7 +347,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         background-color: orange;
-        height: 100vh;
+        height: 110vh;
     }
 
     .purchase_left {
@@ -406,13 +406,12 @@ footer {
 @media all and (max-width: 48rem) {
 /* Tablet Dimensions */
     
-
     /* Tablet Media Queries for Nav */
 
     /* Use of Responsive Navigation */
 
     nav {
-        background-color: orange;
+        background-color: greenyellow;
         position: fixed;
     }
 
@@ -446,7 +445,7 @@ footer {
         color: greenyellow;
     }
 
-    #check:checked~ul {
+    #check:checked ~ ul {
         left: 0;
     }
 
